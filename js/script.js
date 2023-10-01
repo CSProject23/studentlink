@@ -9,3 +9,19 @@ sign_up_btn.addEventListener("click", () => {
 sign_in_btn.addEventListener("click", () => {
   container.classList.remove("sign-up-mode");
 });
+
+
+//contact
+
+let popup = document.getElementById('popup');
+
+function openPopup(){
+  
+  popup.classList.add("open-popup")
+
+}
+function closePopup(){
+  
+  popup.classList.remove("open-popup")
+
+}
